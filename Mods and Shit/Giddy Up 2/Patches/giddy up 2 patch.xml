@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+<!-- GIDDY UP 2 PATCHES -->
+	<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+	  <xpath>/Defs/DesignationCategoryDef[defName="Ferny_Animals"]/specialDesignatorClasses</xpath>
+	  <value>
+            <li>GiddyUpCaravan.Designator_GU_DropAnimal_NPC_Expand</li>
+            <li>GiddyUpCaravan.Designator_GU_DropAnimal_NPC_Clear</li>
+            <li>GiddyUpRideAndRoll.Designator_GU_DropAnimal_Expand</li>
+            <li>GiddyUpRideAndRoll.Designator_GU_DropAnimal_Clear</li>
+            <li>GiddyUpRideAndRoll.Designator_GU_NoMount_Expand</li>
+            <li>GiddyUpRideAndRoll.Designator_GU_NoMount_Clear</li>
+	  </value>
+	</Operation>
+
+  <Operation Class="PatchOperationRemove">
+      <success>Always</success>
+      <xpath>Defs/DesignationCategoryDef[defName="Zone"]/specialDesignatorClasses/li[.='GiddyUpCaravan.Designator_GU_DropAnimal_NPC_Expand']</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+      <success>Always</success>
+      <xpath>Defs/DesignationCategoryDef[defName="Zone"]/specialDesignatorClasses/li[.='GiddyUpCaravan.Designator_GU_DropAnimal_NPC_Clear']</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+      <success>Always</success>
+      <xpath>Defs/DesignationCategoryDef[defName="Zone"]/specialDesignatorClasses/li[.='GiddyUpRideAndRoll.Designator_GU_DropAnimal_Expand']</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+      <success>Always</success>
+      <xpath>Defs/DesignationCategoryDef[defName="Zone"]/specialDesignatorClasses/li[.='GiddyUpRideAndRoll.Designator_GU_DropAnimal_Clear']</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+      <success>Always</success>
+      <xpath>Defs/DesignationCategoryDef[defName="Zone"]/specialDesignatorClasses/li[.='GiddyUpRideAndRoll.Designator_GU_NoMount_Expand']</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+      <success>Always</success>
+      <xpath>Defs/DesignationCategoryDef[defName="Zone"]/specialDesignatorClasses/li[.='GiddyUpRideAndRoll.Designator_GU_NoMount_Clear']</xpath>
+  </Operation>
+
+</Patch>
+
+
+
+
+
+

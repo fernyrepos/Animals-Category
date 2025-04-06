@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+                <Operation Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/DesignationCategoryDef[defName="GR_GeneticsTab"]</xpath>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_BiomechanicalLabBeacon"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_MechahybridAntenna"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_GenePod"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_ElectroWomb"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_LargeElectroWomb"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_TissueGrinder"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_GeneticsTinkeringTable"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_GeneticExtractionTable"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_GeneRecombinator"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_NutrientVat"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="GR_TissueGrowingVat"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+</Patch>

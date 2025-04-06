@@ -1,0 +1,36 @@
+<loadFolders>
+  <v1.4>
+    <li>/</li>
+    <li IfModActive="vanillaexpanded.vfearchitect">Mods and Shit/VFE Architect</li>
+    <li IfModActive="vanillaexpanded.vgeneticse">Mods and Shit/VE Genetics</li>
+    <li IfModActive="vanillaexpanded.vgeneticsemorelabstuff">Mods and Shit/VGE More</li>
+    <li IfModActive="animal.bedsnew">Mods and Shit/More Animal Beds</li>
+    <li IfModActive="sarg.alphaimplants">Mods and Shit/Alpha Implants</li>
+    <li IfModActive="reel.expanded.storage">Mods and Shit/Reel's Storage</li>
+    <li IfModActive="owlchemist.giddyup">Mods and Shit/Giddy Up 2</li>
+    <li IfModActive="mlie.runandhide">Mods and Shit/Run and Hide</li>
+    <li IfModActive="sarg.alphamemes">Mods and Shit/Alpha Memes</li>
+    <li IfModActive="zal.animalcages">Mods and Shit/Animal Cages</li>
+    <li IfModActive="neceros.animalmedicalbed">Mods and Shit/Animal Medical Bed</li>
+    <li IfModActive="Mlie.AnimalHarvestingSpot">Mods and Shit/Animal Harvesting Spot</li>
+    <li IfModActive="mn.autoAnimalFlap">Mods and Shit/Auto Animal Flap</li>
+    <li IfModActive="cucumpear.animalbeds">Mods and Shit/Large Animal Beds</li>
+  </v1.4>
+  <v1.5>
+    <li>/</li>
+    <li IfModActive="vanillaexpanded.vfearchitect">Mods and Shit/VFE Architect</li>
+    <li IfModActive="vanillaexpanded.vgeneticse">Mods and Shit/VE Genetics</li>
+    <li IfModActive="vanillaexpanded.vgeneticsemorelabstuff">Mods and Shit/VGE More</li>
+    <li IfModActive="animal.bedsnew">Mods and Shit/More Animal Beds</li>
+    <li IfModActive="sarg.alphaimplants">Mods and Shit/Alpha Implants</li>
+    <li IfModActive="reel.expanded.storage">Mods and Shit/Reel's Storage</li>
+    <li IfModActive="owlchemist.giddyup">Mods and Shit/Giddy Up 2</li>
+    <li IfModActive="mlie.runandhide">Mods and Shit/Run and Hide</li>
+    <li IfModActive="sarg.alphamemes">Mods and Shit/Alpha Memes</li>
+    <li IfModActive="zal.animalcages">Mods and Shit/Animal Cages</li>
+    <li IfModActive="neceros.animalmedicalbed">Mods and Shit/Animal Medical Bed</li>
+    <li IfModActive="Mlie.AnimalHarvestingSpot">Mods and Shit/Animal Harvesting Spot</li>
+    <li IfModActive="mn.autoAnimalFlap">Mods and Shit/Auto Animal Flap</li>
+    <li IfModActive="cucumpear.animalbeds">Mods and Shit/Large Animal Beds</li>
+  </v1.5>
+</loadFolders>

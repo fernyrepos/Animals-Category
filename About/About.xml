@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Animals Category</name>
+	<author>ferny</author>
+	<packageId>ferny.animalscategory</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Adds an "Animals" category.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>VanillaExpanded.VGeneticsE</li>
+		<li>VanillaExpanded.VGeneticsEMoreLabStuff</li>
+		<li>VanillaExpanded.VFEArchitect</li>
+		<li>ferny.xenooranimalgenetics</li>
+		<li>ferny.progressiongenetics</li>
+		<li>com.bymarcin.architecticons</li>
+		<li>animal.bedsnew</li>
+		<li>sarg.alphaimplants</li>
+		<li>reel.expanded.storage</li>
+		<li>owlchemist.giddyup</li>
+		<li>mlie.runandhide</li>
+		<li>sarg.alphamemes</li>
+		<li>ferny.categoriesspots</li>
+		<li>zal.animalcages</li>
+		<li>neceros.animalmedicalbed</li>
+		<li>Mlie.AnimalHarvestingSpot</li>
+		<li>mn.autoAnimalFlap</li>
+		<li>cucumpear.animalbeds</li>
+	</loadAfter>
+</ModMetaData>

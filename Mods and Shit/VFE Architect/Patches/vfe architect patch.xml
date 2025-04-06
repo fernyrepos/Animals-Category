@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>          
+                <Operation Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFEArch_AnimalGate"]</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFEArch_ChainlinkFence"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFEArch_PicketFence"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFEArch_BrickFence"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFEArch_InvisibleFence"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFEArch_LowFence"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ferny_Animals</designationCategory>
+                    </value>
+                </Operation>
+</Patch>

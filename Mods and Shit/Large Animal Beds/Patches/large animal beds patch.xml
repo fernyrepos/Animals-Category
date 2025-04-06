@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- PATCH BY HARMONEA, NOT ME -->
+
+
+
+
+	<!-- beds added by this mod -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="PetBedWithQualityBase" or defName="CCPMAnimalSleepingSpot" or defName="CCPLAnimalSleepingSpot" or defName="CCPMAnimalSleepingBox" or defName="CCPLAnimalSleepingBox" or defName="CCPMAnimalSleepingBed" or defName="CCPLAnimalSleepingBed"]/designationCategory</xpath>
+		<value>
+			<designationCategory>Ferny_Animals</designationCategory>
+		</value>
+	</Operation>
+	
+	<!-- core beds moved by this mod -->
+	<!-- hopefully the text() prevents this patch from firing unnecessarily in case of unexpected load order -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AnimalSleepingBox" or defName="AnimalBed" or defName="AnimalSleepingSpot"]/designationCategory[text()="CCP_PetBeds"]</xpath>
+		<value>
+			<designationCategory>Ferny_Animals</designationCategory>
+		</value>
+	</Operation>
+	
+	<!-- delete the category -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/DesignationCategoryDef[defName="CCP_PetBeds"]</xpath>
+	</Operation>
+</Patch>
